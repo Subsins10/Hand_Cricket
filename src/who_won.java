@@ -18,6 +18,4 @@ public class who_won {
                 System.out.println("\n\nCongratulations, You won !!");
         }
     }
-    //just to see its working or not
-
 }

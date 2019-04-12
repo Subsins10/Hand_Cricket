@@ -15,7 +15,7 @@ public class player {
             me++;
             System.out.println("\nPC's Target is "+s+"\n\n--------------------2nd Innings------------------------\n\n");
             System.out.println("You Start bowling ");
-            //su = ur_bowling.bowl2nd(t, sc, su,s,me);
+
             su = ur_batting.bat2nd(t,sc,s,su,me);
             me--;
 
@@ -24,7 +24,7 @@ public class player {
             me++;
             System.out.println("\nYou chose bowling\n");
             System.out.println("You Start bowling ");
-            //su = ur_bowling.bowl1st(t, sc, su,me);
+
             su=ur_batting.bat1st(t, sc, su, me);
 
             me--;
